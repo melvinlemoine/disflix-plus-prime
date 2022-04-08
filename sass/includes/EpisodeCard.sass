@@ -1,0 +1,31 @@
+.EpisodeCard
+    transition: all .3s ease-in-out
+    cursor: pointer
+    min-width: 25rem
+    width: 25rem
+    text-decoration: none
+
+    &:hover
+        transform: scale(1.025)
+        .EpisodeCard__thumbnail
+            border: 2px solid white
+
+    &__thumbnail
+        min-height: 15rem
+        border-radius: $br-normal
+        transition: all .3s ease-in-out
+        border: 2px solid transparent
+
+    &__content
+        margin-top: .5rem
+        color: white
+        // text-decoration: inherit
+        
+        &_title
+            font-weight: 600
+            margin-bottom: .25rem
+            font-size: .9rem
+            // text-decoration: inherit
+        &_description
+            // text-decoration: inherit
+            font-size: .8rem
