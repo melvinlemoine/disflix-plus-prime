@@ -1,0 +1,51 @@
+.header
+    height: 75vh
+    background-color: white
+    overflow: hidden
+
+    &:after
+        content: ''
+        position: absolute
+        height: 100%
+        width: 100%
+        bottom: 0
+        left: 0
+        z-index: 1
+        background: linear-gradient(0deg, rgba($dark--1, 1) 0%, rgba($dark--1, .25) 25%, rgba($dark--1, .25) 100%)
+        // border: 1px solid red
+
+    &__video
+        position: absolute
+        z-index: 0
+        object-fit: cover
+        min-width: 100%
+        min-height: 100%
+
+    &__content
+        position: relative
+        z-index: 2
+        margin-left: 5rem
+        max-width: 40%
+
+        &_logo
+            max-width: 25rem
+
+        &_description
+            color: white
+
+        &_controls
+            &_control
+                margin-right: .5rem
+                &:last-of-type
+                    margin-right: 0
+
+                &--play
+                    &:hover
+                        background-color: #e6e6e6
+                &--more
+                    background-color: rgba($silver, .75)
+                    color: white
+
+                    &:hover
+                        background-color: rgba($silver, .65)
+
