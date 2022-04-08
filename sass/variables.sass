@@ -1,0 +1,19 @@
+$dark--1: #191E23
+$dark--2: #23282D
+$dark--3: #32373C
+
+$silver: #82878C
+
+$colors: ("dark--1": $dark--1, "dark--2": $dark--2, "dark--3": $dark--3)
+
+@each $colorname, $color in $colors
+    .is-#{$colorname}
+        background-color: $color
+    .c-#{$colorname}
+        color: $color
+
+
+$br-normal: .5rem
+
+.br-normal
+    border-radius: $br-normal
