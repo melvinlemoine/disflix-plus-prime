@@ -3,11 +3,11 @@
 <header class="header relative flex-c v-centered">
 
     <video class="header__video" autoplay muted loop>
-        <source src="<?php bloginfo('template_url'); ?>/assets/vid/obi-wan.mp4" type="video/mp4">
+        <source src="<?php bloginfo('template_url'); ?>/assets/vid/kenobi.mp4" type="video/mp4">
     </video>
 
     <div class="header__content">
-        <img class="header__content_logo" src="<?php bloginfo('template_url'); ?>/assets/images/obi-wan.png" alt="Show logo" />
+        <img class="header__content_logo" src="<?php bloginfo('template_url'); ?>/assets/images/kenobi.png" alt="Show logo" />
         <p class="header__content_description fs-5 ta-justify">Pendant le règne de l'Empire, Obi-Wan Kenobi se lance dans une mission cruciale.</p>
         <div class="header__content_controls mt-10">
             <a class="header__content_controls_control header__content_controls_control--play button has-icon is-white">
@@ -28,6 +28,147 @@
 </header>
 
 <main class="main">
+
+    <section class="section favourite">
+
+        <h2 class="section__title">Ma liste</h2>
+
+        <div class="list">
+
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/mandalorian.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/tron.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/vaiana.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/avatar.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/strange.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/boba.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/vikings.webp')">
+            </a>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <a class="section__title" href="#">Science fiction
+            <span class="section__title_arrow">
+                <i class="fa-solid fa-angle-right"></i>
+            </span>
+        </a>
+
+        <div class="list">
+
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/mandalorian.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/tron.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/vaiana.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/avatar.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/strange.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/boba.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/vikings.webp')">
+            </a>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <a class="section__title" href="#">Comédie
+            <span class="section__title_arrow">
+                <i class="fa-solid fa-angle-right"></i>
+            </span>
+        </a>
+
+        <div class="list">
+
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/mandalorian.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/tron.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/vaiana.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/avatar.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/strange.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/boba.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/vikings.webp')">
+            </a>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <a class="section__title" href="#">Action
+            <span class="section__title_arrow">
+                <i class="fa-solid fa-angle-right"></i>
+            </span>
+        </a>
+
+        <div class="list">
+
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/mandalorian.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/tron.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/vaiana.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/avatar.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/strange.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/boba.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/vikings.webp')">
+            </a>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <a class="section__title" href="#">Documentaires
+            <span class="section__title_arrow">
+                <i class="fa-solid fa-angle-right"></i>
+            </span>
+        </a>
+
+        <div class="list">
+
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/mandalorian.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/tron.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/vaiana.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/avatar.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/strange.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/boba.jpg')">
+            </a>
+            <a class="ShowCard bg-center bg-cover bg-norepeat" href="#" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/vikings.webp')">
+            </a>
+
+        </div>
+
+    </section>
 
 </main>
 
