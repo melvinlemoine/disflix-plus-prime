@@ -2,6 +2,7 @@
 
 <main class="main">
     <div class="container">
+        <a href="http://localhost/streamify">Retour</a>
         <h1 class="title fs-10 mb-5">Catégorie : <b>Science-Fiction</b></h1>
 
         <div class="list">
