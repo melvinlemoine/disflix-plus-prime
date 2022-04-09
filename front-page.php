@@ -31,7 +31,7 @@
 
     <section class="section favourite">
 
-        <h2 class="section__title">Ma liste</h2>
+        <h2 class="section__title">Dernières nouveautés</h2>
 
         <div class="list">
 
