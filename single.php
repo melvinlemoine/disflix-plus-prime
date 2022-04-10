@@ -14,7 +14,7 @@
     </video>
 
     <div class="header__content">
-        <img class="header__content_logo" src="<?php bloginfo('template_url'); ?>/assets/images/mandalorian.png" alt="Show logo" />
+        <img class="header__content_logo" src="<?php bloginfo('template_url'); ?>/assets/images/shows/the-mandalorian/logo.png" alt="Show logo" />
 
         <div class="header__content_informations flex-r mb-5">
             <p class="header__content_informations_seasons uppercase bold">2 saisons</p>
@@ -47,56 +47,56 @@
         <h2 class="section__title">Saison 1</h2>
         <div class="list">
             <a class="EpisodeCard" href="#">
-                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/episodes/1')"></div>
+                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/the-mandalorian/episodes/1')"></div>
                 <div class="EpisodeCard__content flex-c">
                     <p class="EpisodeCard__content_title">1. Chapitre 1 : Le Mandalorien (40 min)</p>
                     <p class="EpisodeCard__content_description">Un chasseur mandalorien traque une cible pour un mystérieux et fortuné client.</p>
                 </div>
             </a>
             <a class="EpisodeCard" href="#">
-                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/episodes/2')"></div>
+                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/the-mandalorian/episodes/2')"></div>
                 <div class="EpisodeCard__content flex-c">
                     <p class="EpisodeCard__content_title">1. Chapitre 1 : Le Mandalorien (40 min)</p>
                     <p class="EpisodeCard__content_description">Un chasseur mandalorien traque une cible pour un mystérieux et fortuné client.</p>
                 </div>
             </a>
             <a class="EpisodeCard" href="#">
-                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/episodes/3')"></div>
+                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/the-mandalorian/episodes/3')"></div>
                 <div class="EpisodeCard__content flex-c">
                     <p class="EpisodeCard__content_title">1. Chapitre 1 : Le Mandalorien (40 min)</p>
                     <p class="EpisodeCard__content_description">Un chasseur mandalorien traque une cible pour un mystérieux et fortuné client.</p>
                 </div>
             </a>
             <a class="EpisodeCard" href="#">
-                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/episodes/4')"></div>
+                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/the-mandalorian/episodes/4')"></div>
                 <div class="EpisodeCard__content flex-c">
                     <p class="EpisodeCard__content_title">1. Chapitre 1 : Le Mandalorien (40 min)</p>
                     <p class="EpisodeCard__content_description">Un chasseur mandalorien traque une cible pour un mystérieux et fortuné client.</p>
                 </div>
             </a>
             <a class="EpisodeCard" href="#">
-                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/episodes/5')"></div>
+                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/the-mandalorian/episodes/5')"></div>
                 <div class="EpisodeCard__content flex-c">
                     <p class="EpisodeCard__content_title">1. Chapitre 1 : Le Mandalorien (40 min)</p>
                     <p class="EpisodeCard__content_description">Un chasseur mandalorien traque une cible pour un mystérieux et fortuné client.</p>
                 </div>
             </a>
             <a class="EpisodeCard" href="#">
-                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/episodes/6')"></div>
+                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/the-mandalorian/episodes/6')"></div>
                 <div class="EpisodeCard__content flex-c">
                     <p class="EpisodeCard__content_title">1. Chapitre 1 : Le Mandalorien (40 min)</p>
                     <p class="EpisodeCard__content_description">Un chasseur mandalorien traque une cible pour un mystérieux et fortuné client.</p>
                 </div>
             </a>
             <a class="EpisodeCard" href="#">
-                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/episodes/7')"></div>
+                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/the-mandalorian/episodes/7')"></div>
                 <div class="EpisodeCard__content flex-c">
                     <p class="EpisodeCard__content_title">1. Chapitre 1 : Le Mandalorien (40 min)</p>
                     <p class="EpisodeCard__content_description">Un chasseur mandalorien traque une cible pour un mystérieux et fortuné client.</p>
                 </div>
             </a>
             <a class="EpisodeCard" href="#">
-                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/episodes/8')"></div>
+                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/the-mandalorian/episodes/8')"></div>
                 <div class="EpisodeCard__content flex-c">
                     <p class="EpisodeCard__content_title">1. Chapitre 1 : Le Mandalorien (40 min)</p>
                     <p class="EpisodeCard__content_description">Un chasseur mandalorien traque une cible pour un mystérieux et fortuné client.</p>
@@ -109,56 +109,56 @@
         <h2 class="section__title">Saison 2</h2>
         <div class="list">
             <a class="EpisodeCard" href="#">
-                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/episodes/1')"></div>
+                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/the-mandalorian/episodes/9')"></div>
                 <div class="EpisodeCard__content flex-c">
                     <p class="EpisodeCard__content_title">1. Chapitre 1 : Le Mandalorien (40 min)</p>
                     <p class="EpisodeCard__content_description">Un chasseur mandalorien traque une cible pour un mystérieux et fortuné client.</p>
                 </div>
             </a>
             <a class="EpisodeCard" href="#">
-                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/episodes/2')"></div>
+                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/the-mandalorian/episodes/10')"></div>
                 <div class="EpisodeCard__content flex-c">
                     <p class="EpisodeCard__content_title">1. Chapitre 1 : Le Mandalorien (40 min)</p>
                     <p class="EpisodeCard__content_description">Un chasseur mandalorien traque une cible pour un mystérieux et fortuné client.</p>
                 </div>
             </a>
             <a class="EpisodeCard" href="#">
-                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/episodes/3')"></div>
+                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/the-mandalorian/episodes/11')"></div>
                 <div class="EpisodeCard__content flex-c">
                     <p class="EpisodeCard__content_title">1. Chapitre 1 : Le Mandalorien (40 min)</p>
                     <p class="EpisodeCard__content_description">Un chasseur mandalorien traque une cible pour un mystérieux et fortuné client.</p>
                 </div>
             </a>
             <a class="EpisodeCard" href="#">
-                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/episodes/4')"></div>
+                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/the-mandalorian/episodes/12')"></div>
                 <div class="EpisodeCard__content flex-c">
                     <p class="EpisodeCard__content_title">1. Chapitre 1 : Le Mandalorien (40 min)</p>
                     <p class="EpisodeCard__content_description">Un chasseur mandalorien traque une cible pour un mystérieux et fortuné client.</p>
                 </div>
             </a>
             <a class="EpisodeCard" href="#">
-                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/episodes/5')"></div>
+                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/the-mandalorian/episodes/13')"></div>
                 <div class="EpisodeCard__content flex-c">
                     <p class="EpisodeCard__content_title">1. Chapitre 1 : Le Mandalorien (40 min)</p>
                     <p class="EpisodeCard__content_description">Un chasseur mandalorien traque une cible pour un mystérieux et fortuné client.</p>
                 </div>
             </a>
             <a class="EpisodeCard" href="#">
-                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/episodes/6')"></div>
+                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/the-mandalorian/episodes/14')"></div>
                 <div class="EpisodeCard__content flex-c">
                     <p class="EpisodeCard__content_title">1. Chapitre 1 : Le Mandalorien (40 min)</p>
                     <p class="EpisodeCard__content_description">Un chasseur mandalorien traque une cible pour un mystérieux et fortuné client.</p>
                 </div>
             </a>
             <a class="EpisodeCard" href="#">
-                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/episodes/7')"></div>
+                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/the-mandalorian/episodes/15')"></div>
                 <div class="EpisodeCard__content flex-c">
                     <p class="EpisodeCard__content_title">1. Chapitre 1 : Le Mandalorien (40 min)</p>
                     <p class="EpisodeCard__content_description">Un chasseur mandalorien traque une cible pour un mystérieux et fortuné client.</p>
                 </div>
             </a>
             <a class="EpisodeCard" href="#">
-                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/episodes/8')"></div>
+                <div class="EpisodeCard__thumbnail bg-cover bg-center bg-norepeat" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/shows/the-mandalorian/episodes/16')"></div>
                 <div class="EpisodeCard__content flex-c">
                     <p class="EpisodeCard__content_title">1. Chapitre 1 : Le Mandalorien (40 min)</p>
                     <p class="EpisodeCard__content_description">Un chasseur mandalorien traque une cible pour un mystérieux et fortuné client.</p>
