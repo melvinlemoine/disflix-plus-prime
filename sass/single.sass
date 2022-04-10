@@ -1,7 +1,7 @@
 .single
     .header
         height: 75vh
-        background-color: white
+        // background-color: white
         overflow: hidden
 
         &:after
@@ -15,6 +15,19 @@
             background: linear-gradient(0deg, rgba($dark--1, 1) 0%, rgba($dark--1, .25) 25%, rgba($dark--1, .25) 100%)
             // border: 1px solid red
 
+        &__back
+            left: 5rem
+            top: -5rem
+            z-index: 2
+            border: 1px solid white
+            color: white
+            width: fit-content
+            transition: all .1s ease-in-out
+
+            &:hover
+                background-color: rgba(white, .75)
+                color: $dark--1
+
         &__video
             position: absolute
             z-index: 0
@@ -27,7 +40,7 @@
             z-index: 2
             margin-left: 5rem
             max-width: 40%
-            
+
             &_logo
                 max-width: 25rem
 
@@ -55,6 +68,7 @@
 
                         &:hover
                             background-color: rgba($dark--3, .5)
+
     .main
         .section
             .list

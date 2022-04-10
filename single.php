@@ -2,6 +2,13 @@
 
 <header class="header relative flex-c v-centered">
 
+    <a href="http://localhost/streamify" class="button has-icon header__back absolute">
+        <span class="icon">
+            <i class="fa-solid fa-house"></i>
+        </span>
+        Accueil
+    </a>
+
     <video class="header__video" autoplay muted loop>
         <source src="<?php bloginfo('template_url'); ?>/assets/vid/mandalorian.mp4" type="video/mp4">
     </video>
@@ -18,13 +25,13 @@
 
         <p class="header__content_description fs-5 ta-justify">Pendant le règne de l'Empire, Obi-Wan Kenobi se lance dans une mission cruciale.</p>
         <div class="header__content_controls flex-r v-centered mt-10">
-            <a class="header__content_controls_control header__content_controls_control--play button has-icon is-white">
+            <a class="header__content_controls_control header__content_controls_control--play button has-icon is-white disable">
                 <span class="icon">
                     <i class="fa-solid fa-play"></i>
                 </span>
                 Lecture
             </a>
-            <a class="header__content_controls_control header__content_controls_control--teaser button has-icon is-white">
+            <a class="header__content_controls_control header__content_controls_control--teaser button has-icon is-white disable">
                 <!-- <span class="icon">
                     <i class="fa-solid fa-play"></i>
                 </span> -->
