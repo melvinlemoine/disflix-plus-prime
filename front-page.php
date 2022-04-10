@@ -10,7 +10,7 @@
         <img class="header__content_logo" src="<?php bloginfo('template_url'); ?>/assets/images/kenobi.png" alt="Show logo" />
         <p class="header__content_description fs-5 ta-justify">Pendant le règne de l'Empire, Obi-Wan Kenobi se lance dans une mission cruciale.</p>
         <div class="header__content_controls mt-10">
-            <a class="header__content_controls_control header__content_controls_control--play button has-icon is-white">
+            <a class="header__content_controls_control header__content_controls_control--play button has-icon is-white disable">
                 <span class="icon">
                     <i class="fa-solid fa-play"></i>
                 </span>
