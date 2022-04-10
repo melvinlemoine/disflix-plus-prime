@@ -46,6 +46,11 @@ Version: 1.1
   font-weight: 500;
 }
 
+.body .button.disable {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
 .body .main {
   position: relative;
   z-index: 2;
@@ -71,16 +76,16 @@ Version: 1.1
   padding-left: 5rem;
 }
 
-.ShowCard {
+.ShowCard, .CategoryCard {
   border: 2px solid transparent;
-  transition: all .3s ease-in-out;
+  transition: all .2s ease-in-out;
   min-height: 10rem;
   min-width: 18rem;
   border-radius: 0.5rem;
   cursor: pointer;
 }
 
-.ShowCard:hover {
+.ShowCard:hover, .CategoryCard:hover {
   transform: scale(1.05);
   border: 2px solid white;
 }
@@ -121,6 +126,32 @@ Version: 1.1
 
 .EpisodeCard__content_description {
   font-size: .8rem;
+}
+
+.CategoryCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #32373C;
+  border: 2px solid #82878C;
+  transition: all .2s ease-in-out;
+  min-height: 10rem;
+  min-width: 18rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.CategoryCard:hover {
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.5);
+  transform: scale(1.05);
+  border: 2px solid white;
+}
+
+.CategoryCard__title {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-size: 1.25rem;
 }
 
 .home .header {
@@ -205,7 +236,6 @@ Version: 1.1
 
 .single .header {
   height: 75vh;
-  background-color: white;
   overflow: hidden;
 }
 
@@ -218,6 +248,21 @@ Version: 1.1
   left: 0;
   z-index: 1;
   background: linear-gradient(0deg, #191e23 0%, rgba(25, 30, 35, 0.25) 25%, rgba(25, 30, 35, 0.25) 100%);
+}
+
+.single .header__back {
+  left: 5rem;
+  top: -5rem;
+  z-index: 2;
+  border: 1px solid white;
+  color: white;
+  width: fit-content;
+  transition: all .1s ease-in-out;
+}
+
+.single .header__back:hover {
+  background-color: rgba(255, 255, 255, 0.75);
+  color: #191E23;
 }
 
 .single .header__video {
@@ -309,11 +354,11 @@ Version: 1.1
   padding-bottom: 1rem;
 }
 
-.section .ShowCard {
+.section .ShowCard, .section .CategoryCard {
   margin-right: 1rem;
 }
 
-.section .ShowCard:last-of-type {
+.section .ShowCard:last-of-type, .section .CategoryCard:last-of-type {
   margin-right: 0;
 }
 
