@@ -29,7 +29,7 @@
 
 <main class="main">
 
-    <section class="section favourite">
+    <section class="section last">
 
         <h2 class="section__title">Dernières nouveautés</h2>
 
@@ -52,6 +52,30 @@
 
         </div>
 
+    </section>
+
+    <section class="section categories">
+        <h2 class="section__title">Catégories</h2>
+        <div class="list">
+            <a class="CategoryCard">
+                <p class="CategoryCard__title">Science-Fiction</p>
+            </a>
+            <a class="CategoryCard">
+                <p class="CategoryCard__title">Action</p>
+            </a>
+            <a class="CategoryCard">
+                <p class="CategoryCard__title">Aventure</p>
+            </a>
+            <a class="CategoryCard">
+                <p class="CategoryCard__title">Comédie</p>
+            </a>
+            <a class="CategoryCard">
+                <p class="CategoryCard__title">Documentaire</p>
+            </a>
+            <a class="CategoryCard">
+                <p class="CategoryCard__title">Horreur</p>
+            </a>
+        </div>
     </section>
 
     <section class="section">

@@ -1,0 +1,25 @@
+.CategoryCard
+    display: flex
+    justify-content: center
+    align-items: center
+
+    background-color: $dark--3
+
+    border: 2px solid $silver
+    transition: all .2s ease-in-out
+
+    min-height: 10rem
+    min-width: 18rem
+    border-radius: $br-normal
+    cursor: pointer
+
+    &:hover
+        box-shadow: 0 0 25px 0 rgba(black, .5)
+        transform: scale(1.05)
+        border: 2px solid white
+
+    &__title
+        font-weight: bold
+        color: white
+        text-align: center
+        font-size: 1.25rem
