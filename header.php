@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <title><?php the_title(); ?></title>
 
+    <link href="<?php bloginfo('template_url'); ?>/assets/images/favicon.ico" rel="icon" type="image/x-icon" />
+
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
 
     <?php wp_head(); ?>
