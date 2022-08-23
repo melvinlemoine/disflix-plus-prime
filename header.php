@@ -13,4 +13,4 @@
 </head>
 
 
-<body <?php body_class('body'); ?>>
+<body id="body" <?php body_class('body'); ?>>

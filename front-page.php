@@ -20,7 +20,7 @@
                 <span class="icon">
                     <i class="fa-solid fa-circle-info"></i>
                 </span>
-                Plus d'infos
+                Plus&nbsp;d'infos
             </a>
         </div>
         </p>
