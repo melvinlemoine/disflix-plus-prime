@@ -232,4 +232,60 @@
 
 </main>
 
+<div class="profiles" id="profiles">
+
+    <h1 class="profiles__title">Choissisez un profil</h1>
+
+    <div class="profiles__list">
+        <div class="profiles__list_profile">
+            <div class="profiles__list_profile_picture" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/profiles/obiwan.png')"></div>
+            <p class="profiles__list_profile_name">Obi-Wan</p>
+        </div>
+        <div class="profiles__list_profile">
+            <div class="profiles__list_profile_picture" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/profiles/dj_dave.png')"></div>
+            <p class="profiles__list_profile_name">DJ_Dave</p>
+        </div>
+        <div class="profiles__list_profile">
+            <div class="profiles__list_profile_picture" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/profiles/vaiana.png')"></div>
+            <p class="profiles__list_profile_name">Vaiana</p>
+        </div>
+        <div class="profiles__list_profile">
+            <div class="profiles__list_profile_picture" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/profiles/ratchet.png')"></div>
+            <p class="profiles__list_profile_name">Rachet</p>
+        </div>
+        <div class="profiles__list_profile">
+            <div class="profiles__list_profile_picture" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/profiles/mocha.png')"></div>
+            <p class="profiles__list_profile_name">Mocha</p>
+        </div>
+    </div>
+
+</div>
+
+<audio id="opening">
+    <source src="<?php bloginfo('template_url'); ?>/assets/audio/opening.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+    $(".profiles__list_profile").click(function() {
+        localStorage.setItem("profiles", true);
+        console.log("set profile true");
+        $("#opening")[0].play();
+        $('#profiles').addClass('closing');
+        setTimeout(function() {
+            $('#profiles').css({
+                "display": "none"
+            })
+        }, 2000)
+    });
+
+    if (localStorage.getItem("profiles") != "true") {
+        $('#profiles').css({
+            "display": "flex"
+        });
+        // console.log("no profile selected")
+    } else {
+
+    }
+</script>
+
 <?php get_footer() ?>
