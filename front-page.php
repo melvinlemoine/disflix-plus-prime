@@ -52,22 +52,64 @@
         <h2 class="section__title">Catégories</h2>
         <div class="list">
             <a class="CategoryCard">
-                <p class="CategoryCard__title">Science-Fiction</p>
+
+                <div class="CategoryCard__overlay">
+                    <p class="CategoryCard__overlay_title">Science-Fiction</p>
+                </div>
+
+                <video class="CategoryCard__video" autoplay loop muted>
+                    <source src="<?php bloginfo('template_url'); ?>/assets/vid/categories/star-wars.mp4" type="video/mp4" />
+                </video>
             </a>
             <a class="CategoryCard">
-                <p class="CategoryCard__title">Action</p>
+
+                <div class="CategoryCard__overlay">
+                    <p class="CategoryCard__overlay_title">Action</p>
+                </div>
+
+                <video class="CategoryCard__video" autoplay loop muted>
+                    <source src="<?php bloginfo('template_url'); ?>/assets/vid/categories/marvel.mp4" type="video/mp4" />
+                </video>
             </a>
             <a class="CategoryCard">
-                <p class="CategoryCard__title">Aventure</p>
+
+                <div class="CategoryCard__overlay">
+                    <p class="CategoryCard__overlay_title">Films animés</p>
+                </div>
+
+                <video class="CategoryCard__video" autoplay loop muted>
+                    <source src="<?php bloginfo('template_url'); ?>/assets/vid/categories/disney.mp4" type="video/mp4" />
+                </video>
             </a>
             <a class="CategoryCard">
-                <p class="CategoryCard__title">Comédie</p>
+
+                <div class="CategoryCard__overlay">
+                    <p class="CategoryCard__overlay_title">Documentaires</p>
+                </div>
+
+                <video class="CategoryCard__video" autoplay loop muted>
+                    <source src="<?php bloginfo('template_url'); ?>/assets/vid/categories/national-geographic.mp4" type="video/mp4" />
+                </video>
             </a>
             <a class="CategoryCard">
-                <p class="CategoryCard__title">Documentaire</p>
+
+                <div class="CategoryCard__overlay">
+                    <p class="CategoryCard__overlay_title">Dessins animés</p>
+                </div>
+
+                <video class="CategoryCard__video" autoplay loop muted>
+                    <source src="<?php bloginfo('template_url'); ?>/assets/vid/categories/pixar.mp4" type="video/mp4" />
+                </video>
             </a>
             <a class="CategoryCard">
-                <p class="CategoryCard__title">Horreur</p>
+
+                <div class="CategoryCard__overlay">
+                    <p class="CategoryCard__overlay_title">Star</p>
+                </div>
+
+                <video class="CategoryCard__video" autoplay loop muted>
+                    <source src="<?php bloginfo('template_url'); ?>/assets/vid/categories/star.mp4" type="video/mp4" />
+                </video>
             </a>
         </div>
     </section>
