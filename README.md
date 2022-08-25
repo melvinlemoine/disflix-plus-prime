@@ -1,9 +1,11 @@
-# Streamify
+# DisFlix+prime
 
 ## Idées d'améliorations
+
 - Fonctionnalité "Arrive bientôt"
-- Affichage conditionnel selon le type (série ou film)
-- Slider plutôt que scrollbar
+- Affichage conditionnel selon le type (série ou film) pour single.php
+- Slider plutôt que scrollbar horizontale
 - Sélection du profil lors de la première ouverture
 - Page de recherche (isotope)
-- Template d'un épisode (attachement.php)
+- Page de toutes les catégories
+- Uniformiser les boutons

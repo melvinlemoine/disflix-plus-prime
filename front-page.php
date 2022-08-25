@@ -10,17 +10,11 @@
         <img class="header__content_logo" src="<?php bloginfo('template_url'); ?>/assets/images/kenobi.png" alt="Show logo" />
         <p class="header__content_description fs-5 ta-justify">Pendant le règne de l'Empire, Obi-Wan Kenobi se lance dans une mission cruciale.</p>
         <div class="header__content_controls mt-10">
-            <a class="header__content_controls_control header__content_controls_control--play button has-icon is-white disable">
-                <span class="icon">
-                    <i class="fa-solid fa-play"></i>
-                </span>
-                Lecture
-            </a>
-            <a class="header__content_controls_control header__content_controls_control--more button has-icon is-white">
+            <a class="header__content_controls_control header__content_controls_control--more button has-icon is-white" href="#">
                 <span class="icon">
                     <i class="fa-solid fa-circle-info"></i>
                 </span>
-                Plus d'infos
+                Plus&nbsp;d'informations
             </a>
         </div>
         </p>
@@ -58,22 +52,64 @@
         <h2 class="section__title">Catégories</h2>
         <div class="list">
             <a class="CategoryCard">
-                <p class="CategoryCard__title">Science-Fiction</p>
+
+                <div class="CategoryCard__overlay">
+                    <p class="CategoryCard__overlay_title">Science-Fiction</p>
+                </div>
+
+                <video class="CategoryCard__video" autoplay loop muted>
+                    <source src="<?php bloginfo('template_url'); ?>/assets/vid/categories/star-wars.mp4" type="video/mp4" />
+                </video>
             </a>
             <a class="CategoryCard">
-                <p class="CategoryCard__title">Action</p>
+
+                <div class="CategoryCard__overlay">
+                    <p class="CategoryCard__overlay_title">Action</p>
+                </div>
+
+                <video class="CategoryCard__video" autoplay loop muted>
+                    <source src="<?php bloginfo('template_url'); ?>/assets/vid/categories/marvel.mp4" type="video/mp4" />
+                </video>
             </a>
             <a class="CategoryCard">
-                <p class="CategoryCard__title">Aventure</p>
+
+                <div class="CategoryCard__overlay">
+                    <p class="CategoryCard__overlay_title">Films animés</p>
+                </div>
+
+                <video class="CategoryCard__video" autoplay loop muted>
+                    <source src="<?php bloginfo('template_url'); ?>/assets/vid/categories/disney.mp4" type="video/mp4" />
+                </video>
             </a>
             <a class="CategoryCard">
-                <p class="CategoryCard__title">Comédie</p>
+
+                <div class="CategoryCard__overlay">
+                    <p class="CategoryCard__overlay_title">Documentaires</p>
+                </div>
+
+                <video class="CategoryCard__video" autoplay loop muted>
+                    <source src="<?php bloginfo('template_url'); ?>/assets/vid/categories/national-geographic.mp4" type="video/mp4" />
+                </video>
             </a>
             <a class="CategoryCard">
-                <p class="CategoryCard__title">Documentaire</p>
+
+                <div class="CategoryCard__overlay">
+                    <p class="CategoryCard__overlay_title">Dessins animés</p>
+                </div>
+
+                <video class="CategoryCard__video" autoplay loop muted>
+                    <source src="<?php bloginfo('template_url'); ?>/assets/vid/categories/pixar.mp4" type="video/mp4" />
+                </video>
             </a>
             <a class="CategoryCard">
-                <p class="CategoryCard__title">Horreur</p>
+
+                <div class="CategoryCard__overlay">
+                    <p class="CategoryCard__overlay_title">Star</p>
+                </div>
+
+                <video class="CategoryCard__video" autoplay loop muted>
+                    <source src="<?php bloginfo('template_url'); ?>/assets/vid/categories/star.mp4" type="video/mp4" />
+                </video>
             </a>
         </div>
     </section>
@@ -195,5 +231,61 @@
     </section>
 
 </main>
+
+<div class="profiles" id="profiles">
+
+    <h1 class="profiles__title">Choissisez un profil</h1>
+
+    <div class="profiles__list">
+        <div class="profiles__list_profile">
+            <div class="profiles__list_profile_picture" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/profiles/obiwan.png')"></div>
+            <p class="profiles__list_profile_name">Obi-Wan</p>
+        </div>
+        <div class="profiles__list_profile">
+            <div class="profiles__list_profile_picture" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/profiles/dj_dave.png')"></div>
+            <p class="profiles__list_profile_name">DJ_Dave</p>
+        </div>
+        <div class="profiles__list_profile">
+            <div class="profiles__list_profile_picture" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/profiles/vaiana.png')"></div>
+            <p class="profiles__list_profile_name">Vaiana</p>
+        </div>
+        <div class="profiles__list_profile">
+            <div class="profiles__list_profile_picture" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/profiles/ratchet.png')"></div>
+            <p class="profiles__list_profile_name">Rachet</p>
+        </div>
+        <div class="profiles__list_profile">
+            <div class="profiles__list_profile_picture" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/profiles/mocha.png')"></div>
+            <p class="profiles__list_profile_name">Mocha</p>
+        </div>
+    </div>
+
+</div>
+
+<audio id="opening">
+    <source src="<?php bloginfo('template_url'); ?>/assets/audio/opening.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+    $(".profiles__list_profile").click(function() {
+        localStorage.setItem("profiles", true);
+        console.log("set profile true");
+        $("#opening")[0].play();
+        $('#profiles').addClass('closing');
+        setTimeout(function() {
+            $('#profiles').css({
+                "display": "none"
+            })
+        }, 2000)
+    });
+
+    if (localStorage.getItem("profiles") != "true") {
+        $('#profiles').css({
+            "display": "flex"
+        });
+        // console.log("no profile selected")
+    } else {
+
+    }
+</script>
 
 <?php get_footer() ?>

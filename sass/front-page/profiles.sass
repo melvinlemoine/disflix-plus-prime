@@ -1,0 +1,59 @@
+.profiles
+    position: fixed
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    top: 0
+    left: 0
+    width: 100vw
+    height: 100vh
+    background: $dark--1
+    z-index: 100
+    display: none
+    transition: all 2s ease-in-out
+
+    &.closing
+        opacity: 0
+        transform: scale(1.025)
+        .profiles__list
+            
+
+    &__title
+        color: white
+        font-weight: bold
+        font-size: 3rem
+    &__list
+        max-width: 1200px
+        margin-left: auto
+        margin-right: auto
+        display: grid
+        grid-template-columns: repeat(5, 1fr)
+        gap: 2rem
+        margin-top: 2rem
+        // border: 1px solid blue
+        transition: transform 1s ease-in-out
+
+        &_profile
+            // border: 1px solid red
+            cursor: pointer
+
+            &:hover
+                .profiles__list_profile_picture
+                    border: 4px solid white
+            &_picture
+                width: 12.5rem
+                height: 12.5rem
+                background-size: cover
+                background-position: center
+                background-repeat: no-repeat
+                border: 0px solid transparent
+                transition: border .1s ease-in-out
+                border-radius: $br-normal
+                // padding: -4px
+            &_name
+                margin-top: .5rem
+                color: white
+                font-size: 2rem
+                text-align: center
+                width: 100%

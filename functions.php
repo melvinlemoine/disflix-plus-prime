@@ -21,6 +21,9 @@ function insert_css()
 	//########## Import all the javascript scripts here like the example below ##########
 	wp_register_script('fontawesome-js', get_bloginfo('template_url') . '/assets/js/fontawesome.min.js');
 	wp_enqueue_script('fontawesome-js');
+
+	wp_register_script('jquery2', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js');
+	wp_enqueue_script('jquery2');
 }
 
 add_theme_support('menus');
