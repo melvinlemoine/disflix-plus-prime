@@ -61,7 +61,7 @@
                     <source src="<?php bloginfo('template_url'); ?>/assets/vid/categories/star-wars.mp4" type="video/mp4" />
                 </video>
             </a>
-            <a class="CategoryCard">
+            <a class="CategoryCard" href="#">
 
                 <div class="CategoryCard__overlay">
                     <p class="CategoryCard__overlay_title">Action</p>
@@ -71,7 +71,7 @@
                     <source src="<?php bloginfo('template_url'); ?>/assets/vid/categories/marvel.mp4" type="video/mp4" />
                 </video>
             </a>
-            <a class="CategoryCard">
+            <a class="CategoryCard" href="#">
 
                 <div class="CategoryCard__overlay">
                     <p class="CategoryCard__overlay_title">Films animés</p>
@@ -81,7 +81,7 @@
                     <source src="<?php bloginfo('template_url'); ?>/assets/vid/categories/disney.mp4" type="video/mp4" />
                 </video>
             </a>
-            <a class="CategoryCard">
+            <a class="CategoryCard" href="#">
 
                 <div class="CategoryCard__overlay">
                     <p class="CategoryCard__overlay_title">Documentaires</p>
@@ -91,7 +91,7 @@
                     <source src="<?php bloginfo('template_url'); ?>/assets/vid/categories/national-geographic.mp4" type="video/mp4" />
                 </video>
             </a>
-            <a class="CategoryCard">
+            <a class="CategoryCard" href="#">
 
                 <div class="CategoryCard__overlay">
                     <p class="CategoryCard__overlay_title">Dessins animés</p>
@@ -101,7 +101,7 @@
                     <source src="<?php bloginfo('template_url'); ?>/assets/vid/categories/pixar.mp4" type="video/mp4" />
                 </video>
             </a>
-            <a class="CategoryCard">
+            <a class="CategoryCard" href="#">
 
                 <div class="CategoryCard__overlay">
                     <p class="CategoryCard__overlay_title">Star</p>
